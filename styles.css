@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.holder {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Horizontally center the item-1 */
+    align-items: center; /* Vertically center the item-1 */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
+
+.item {
+    width: 100px; /* Width of the item-1 */
+    height: 100px; /* Height of the item-1 */
+}
+
+.item-1 {
+    background-color: red; /* Red background color for item-1 */
+}
